@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;  
+  color: white;
+}
+
+.main-image{
+    background: url(imagenes/forest.jpg) ;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+
+}
+
+.main-image h1{
+    font-size: 70px;
+    margin-bottom: 16px;
+}
+.main-image p{
+    font-size: 24px;
+    margin-bottom: 3rem;
+}
+.main-image button{
+background: none;
+border-radius: 3px;
+color: aliceblue;
+border: 2px solid;
+padding: 1rem 2rem;
+font-size: 1rem;
+font-weight: bold;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
